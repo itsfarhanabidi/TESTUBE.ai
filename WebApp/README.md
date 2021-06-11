@@ -1,1 +1,1 @@
-
+This is a web application created by TESTUBE.ai for doctors and chemists. The application helps doctors handle the patient treatment cycle effectively and helps the chemist with drug administration and control. The entire application is built using Streamlit which is an open source framework written in Python.
