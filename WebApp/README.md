@@ -9,7 +9,7 @@ The Web application comprises of the following pages in the specified order:
     - Provision for a doctor or a chemist to register/login into the web application. Once a doctor is successfully registered, they shall receive a private key on their mobile       phone which will help with future operations in the web application.
 
 2) Navigation window: Once the Doctor has logged in succesfully, they are redirected to the Navigation Window where six operations can be carried out:
-    - Diagnosis window: A doctor can upload Chest X-Ray images and predict whether the patient has Tuberculosis or not. A deep ConvNet model built from scratch helps with this         prediciton. The model achieved an accuracy of 100% and functions in the backend.
+    - Diagnosis window: A doctor can upload Chest X-Ray images and predict whether the patient has Tuberculosis or not. A deep ConvNet model built from scratch helps with this         prediciton. The model achieved an accuracy of **100%** and functions in the backend.
     - Search & View Patients: The Doctor is given an opportunity to search and view any patient who is registered to obtain brief information by using his/her unique Patient-ID       which is provided during the registration process.
     - Edit Patient Records: - If any Patient’s details have to be edited at any course of time, an option is provided to do the needful.
     - Add Patient Test: The doctor can add all types of patient tests prescribed to them to help with further analayis of the disease.
@@ -43,7 +43,16 @@ The Web application comprises of the following pages in the specified order:
    - When the correct patient ID is given, information like Registration Details, Test Details, Treatment Details and Contact Tracing Details can be viewed. 
  
 8) Edit Patient Records: 
- 
+   - This page helps in editing Patient information because with the passage of time, some of the details demand editing so as to update the information timely.
+   - The records that can be edited are Patient Details, Test results, Comorbidity information and Contact information.
+
+9) Data Analysis Report:
+   - This is a real time application innovated by TESTUBE.ai. The doctor will be able to download a complete analysis of all the patients stored in the database across the            country.
+   - The module will draw insights and analyse data from fields like Gender, Age, Occupation, State, Demographics, Economic status and Medical History.
+   - The report is generated using libraries like Pandas, MatplotLib, Seabrone and Fpdf.
+   - The module will perform real time data analysis and generates a pdf titled **NATIONAL TUBERCULOSIS REPORT**.  
+
+10) Drug Administration and Control:
 
 
 
