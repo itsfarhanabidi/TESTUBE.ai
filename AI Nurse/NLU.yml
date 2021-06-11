@@ -1,0 +1,91 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: okay
+  examples: |
+    - Okay!
+    - Okay
+    - Ok
+    - ok
+
+- intent: male
+  examples: |
+    - Male
+    - man
+    - male
+
+- intent: female
+  examples: |
+    - Female
+    - woman
+    - female
+
+- intent: Yes
+  examples: |
+    - yes
+    - YES
+    - yes!
+    - Yes!
+    - Yes
+    - one
+    - 1
+    - One
+
+- intent: No
+  examples: |
+    - no
+    - NO
+    - no!
+    - No!
+    - No
+    - Two
+    - 2
+    - two
+
+- intent: result_thanks
+  examples: |
+    - Thank you
+    - Thanks!
+    - Thanks a lot
+
+- intent: more_info
+  examples: |
+    - I want to know more about the website
+    - Tell me more about this website
+
+- intent: garbage_values
+  examples: |
+    - Hey bro, whatsup?
+    - You stupid?
+    - Do you know how to sing?
+    - Can you play guitar?
+    - Do you like Cristiano Ronaldo?
+    - Can you cook?
+    - Can you dance?
+    - Can you yell at people?
+    - Tell me a good movie name
+    - Do you have a girlfriend?
+    - Can you wash clothes?
+    - Are you a doctor?
