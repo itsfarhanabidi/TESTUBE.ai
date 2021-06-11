@@ -1,0 +1,38 @@
+body {
+background-image: url("https://images.unsplash.com/photo-1591696205602-2f950c417cb9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW5hbHl0aWNzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+background-size: cover;
+}
+
+.title {
+font-weight:bold;
+font-family: Tw Cen MT;
+font-size: 45px;
+text-align: center;
+border-radius: 25px;
+border: 3px solid black;
+}
+
+.divide {
+font-color: black;
+}
+
+.styling {
+color: black;
+position: absolute;
+font-size: 22px;
+}
+
+.sidebar {
+font-weight:bold;
+text-align:center;
+font-size:20px;
+border-radius: 25px;
+border: 3px solid black;
+font-family: Tw Cen MT;
+}
+
+.header {
+font-weight:bold;
+font-family: Tw Cen MT;
+font-size: 30px;
+}
