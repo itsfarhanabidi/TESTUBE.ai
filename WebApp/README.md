@@ -34,6 +34,15 @@ The Web application comprises of the following pages in the specified order:
    - Drug Management: This is the module where the Doctor is given the privilege of accessing the Prescription Database of any patient under their supervision. This marks as the      first step towards Patient Tracking as they can supervise the Purchase Status updated by the Chemist/Druggist.
    
 6) Comorbidity Management System: 
+   - This page handles the Comorbidity Information of the Patients which is a important factor to handle the treatment of a patient.
+   - Comorbidity information like HIV, Diabetes, Tobacco and Alcohol consumption can be added into the database respectively by the doctor.
+
+7) Search & View Patients: 
+   - The Doctor can search any Patients data and view them anytime which were taken during the registration process.
+   - The doctor can search the patient based on Patient ID and Contact Number.
+   - When the correct patient ID is given, information like Registration Details, Test Details, Treatment Details and Contact Tracing Details can be viewed. 
+ 
+8) Edit Patient Records: 
  
 
 
