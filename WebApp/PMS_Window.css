@@ -1,0 +1,38 @@
+body {
+background-image: url("https://images1.dallasobserver.com/imager/u/original/11800306/gettyimages-1132898224.jpg");
+background-size: cover;
+}
+
+.title {
+font-weight:bold;
+font-family: Tw Cen MT;
+font-size: 45px;
+text-align: center;
+border-radius: 25px;
+border: 3px solid black;
+}
+
+.divide {
+font-color: black
+}
+
+.styling {
+color: black;
+position: absolute;
+font-size: 22px;
+}
+
+.sidebar {
+font-weight:bold;
+text-align:center;
+font-size:20px;
+border-radius: 25px;
+border: 3px solid black;
+font-family: Tw Cen MT;
+}
+
+.header {
+font-weight:bold;
+font-family: Tw Cen MT;
+font-size: 30px;
+}
