@@ -56,6 +56,7 @@ remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
 #################################################################################
 
+#Generating a Private Key for the Doctor
 def generateKey():
     key = '0123456789abcdefghijklmnopqrstuvwxyz'
     PrivateKey = ""
