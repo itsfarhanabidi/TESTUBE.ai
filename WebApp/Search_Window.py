@@ -200,4 +200,4 @@ elif(choice == 'Search by Contact Number'):
         st.error(f"Authorisation denied as Patient Case with ID {PID} is closed!") 
 
 else:
-    st.write("")
+    st.write(" ")
