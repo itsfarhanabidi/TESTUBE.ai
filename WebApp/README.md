@@ -53,6 +53,8 @@ The Web application comprises of the following pages in the specified order:
    - The module will perform real time data analysis and generates a pdf titled **NATIONAL TUBERCULOSIS REPORT**.  
 
 10) Drug Administration and Control:
+   - A Page which helps with effective Patient Tracking. 
+   - The Chemist/Druggist will update the purchase status of the TB drugs prescribed by the doctor when the patient has purchased them
 
 
 
