@@ -1,0 +1,64 @@
+body {
+text-align: center;
+background-image: url("https://images1.dallasobserver.com/imager/u/original/11800306/gettyimages-1132898224.jpg");
+background-size: cover;
+}
+
+.header1{
+color: black;
+font-size: 60px;
+text-align: center;
+font-weight: bold;
+font-family: Script;
+}
+
+.about {
+text-align: center;
+font-weight: bold;
+}
+
+.image{
+background-color: transparent;
+}
+
+.header2{
+font-weight: bold;
+text-align: center;
+border-style:dashed;
+font-family: Script;
+font-size: 25px;
+}
+
+.intro {
+text-align: justify;
+font-weight: bold;
+}
+
+.register{
+font-weight: bold;
+text-align: center;
+font-size: 18px;
+border-style:solid;
+font-family: Tw Cen MT;
+border: 3px solid black;
+border-radius: 25px;
+}
+
+.login {
+text-align: left;
+font-weight: bold;
+font-family: Tw Cen MT;
+font-size: 18px;
+}
+
+.header3 {
+border-style:solid;
+font-weight: bold;
+font-size: 25px;
+font-family: Script;
+}
+
+.overview {
+text-align: justify;
+font-weight: bold;
+}
