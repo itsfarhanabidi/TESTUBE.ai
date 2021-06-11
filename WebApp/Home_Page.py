@@ -11,7 +11,7 @@ from PIL import Image
 st.set_page_config(page_title = "TESTUBE.ai")
 #################################################################################
 
-#Database Management
+#Database Management System
 import sqlite3
 con = sqlite3.connect('TB_5.db')
 cur = con.cursor()
