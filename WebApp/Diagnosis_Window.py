@@ -112,4 +112,4 @@ if (imageselect is not None):
         st.markdown("""<i class = "result">Tuberculosis Negative</i>""",True)
         
 else:
-    st.write("")
+    st.write(" ")
