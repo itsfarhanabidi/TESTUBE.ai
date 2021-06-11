@@ -1,0 +1,105 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+- action_hello_world
+
+intents:
+- greet
+- bot_challenge
+- okay
+- male
+- female
+- Yes
+- No
+- result_thanks
+- more_info
+- garbage_values
+
+
+responses:
+  utter_greet:
+    - text: Hello, it's nice to see you here! I am Tubot, a virtual assistant for all
+          your queries regarding TB and I can help you with symptom assessment and suggest
+          you with necessary steps to be taken! Let me begin by asking you a few questions?
+      buttons:
+        - title: Okay!
+
+  utter_gender:
+    - text: Are you a male or a female?
+      buttons:
+        - title: Male
+        - title: Female
+
+  utter_cough:
+    - text: Are you experiencing cough for more than three weeks?
+      buttons:
+        - title: Yes
+        - title: No
+
+  utter_sputum:
+    - text: Do you witness blood in your sputum?
+      buttons:
+        - title: Yes
+        - title: No
+
+  utter_chestpain:
+    - text: Do you feel chest pain or pain while coughing?
+      buttons:
+        - title: Yes
+        - title: No
+
+  utter_appetite:
+    - text: Are you experiencing a loss of appetite?
+      buttons:
+        - title: Yes
+        - title: No
+
+  utter_weight:
+    - text: Have you witnessed weight loss suddenly?
+      buttons:
+        - title: Yes
+        - title: No
+
+
+  utter_sweat:
+    - text: Do you experience night sweats?
+      buttons:
+        - title: Yes
+        - title: No
+
+
+  utter_chills:
+    - text: Do you experience chills?
+      buttons:
+        - title: Yes
+        - title: No
+
+
+  utter_temperature:
+    - text: Do you experience fever?
+      buttons:
+        - title: Yes
+        - title: No
+
+
+  utter_TB:
+    - text: Thank you for patiently answering the questions. I suspect that you might
+            be experiencing the initial stages of TB. Do not panic. Here is a link for you to book an appointment with a
+            pulmonologist for further assistance. Get well soon! https://my.artibot.ai/twbvpnpt
+
+  utter_NoTB:
+    - text: Thank you for patiently answering the questions. I presume you don't have
+            Tuberculosis. However, to rule out Tuberculosis completely, please consider
+            taking a blood test(IGRA) as well as a TST(Tuberculosis Skin Test) !
+
+  utter_bye:
+    - text: Bye!
+
+  utter_iamabot:
+    - text: I am a bot, powered by Rasa.
+
+
+  utter_garbageresponse:
+    - text : I am sorry! I dont understand what that means.
