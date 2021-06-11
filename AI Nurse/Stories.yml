@@ -1,0 +1,378 @@
+version: "2.0"
+
+stories:
+- story: female_TB1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: male_TB1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: no_TB_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: No
+  - action: utter_sputum
+  - intent: No
+  - action: utter_NoTB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: no_TB_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: No
+  - action: utter_sputum
+  - intent: No
+  - action: utter_NoTB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: cough_yes_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: No
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: cough_yes_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: No
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: sputum_yes_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: No
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: sputum_yes_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: No
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: case_1_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: No
+  - action: utter_weight
+  - intent: No
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: No
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: case_1_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: No
+  - action: utter_weight
+  - intent: No
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: No
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: case_2_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: No
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: No
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: No
+  - action: utter_temperature
+  - intent: No
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: case_2_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: No
+  - action: utter_chestpain
+  - intent: Yes
+  - action: utter_appetite
+  - intent: Yes
+  - action: utter_weight
+  - intent: No
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: No
+  - action: utter_temperature
+  - intent: No
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: case_3_male
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: No
+  - action: utter_appetite
+  - intent: No
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: case_3_female
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: Yes
+  - action: utter_sputum
+  - intent: Yes
+  - action: utter_chestpain
+  - intent: No
+  - action: utter_appetite
+  - intent: No
+  - action: utter_weight
+  - intent: Yes
+  - action: utter_sweat
+  - intent: Yes
+  - action: utter_chills
+  - intent: Yes
+  - action: utter_temperature
+  - intent: Yes
+  - action: utter_TB
+  - intent: result_thanks
+  - action: utter_bye
+
+- story: garbage_test_case_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: male
+  - action: utter_cough
+  - intent: garbage_values
+  - action: utter_garbageresponse
+
+- story: garbage_test_case_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: okay
+  - action: utter_gender
+  - intent: female
+  - action: utter_cough
+  - intent: garbage_values
+  - action: utter_garbageresponse
