@@ -12,6 +12,10 @@ border-radius: 25px;
 border: 3px solid black;
 }
 
+.divide {
+font-color: black;
+}
+
 .sidebar {
 font-weight:bold;
 text-align:center;
@@ -21,6 +25,4 @@ border: 3px solid black;
 font-family: Tw Cen MT;
 }
 
-.divide {
-font-color: black;
-}
+
